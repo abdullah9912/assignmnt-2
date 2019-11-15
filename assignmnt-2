@@ -1,0 +1,73 @@
+In [10]:
+# question 01
+marks=[]
+totalmarks=0;
+for i in range (5):
+    x=int(input("enter marks out of 100 "))
+  
+    marks.append(x)
+    totalmarks+=x
+
+print("totalmarks =",totalmarks)  
+percentage=(totalmarks/500)*100
+print("percentage =",percentage)
+if percentage>=90:
+    print("grade A+")
+elif percentage>=80:
+    print("grade A")
+elif percentage>=70:
+    print("grade B")    
+elif percentage>=60:
+    print("grade C")
+elif percentage>=50:
+    print("grade D")
+else:
+    print("fail")
+enter marks out of 100 79
+enter marks out of 100 98
+enter marks out of 100 76
+enter marks out of 100 64
+enter marks out of 100 45
+totalmarks = 362
+percentage = 72.39999999999999
+grade B
+In [12]:
+# question 02
+x=int(input("enter number"))
+if x%2==0:
+    print("even no")
+else:
+    print("odd no")
+enter number8
+even no
+In [13]:
+# question 03
+list=[66,34,33,47,51]
+print(len(list))
+5
+In [14]:
+# question 04
+list=[66,34,33,47,51]
+x=len(list)
+total=0
+for i in range (x):
+    total+=list[i]
+print("sum of list=",total)
+sum of list= 231
+In [15]:
+# question 05
+list=[66,34,33,47,51]
+print(max(list))
+66
+In [16]:
+#  question 06
+list=[1,1,2,3,5,8,13,21,34,55,89]
+x=len(list)
+for i in range(x):
+    if list[i]<5:
+        print(list[i])
+1
+1
+2
+3
+In [ ]:
